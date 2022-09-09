@@ -8,22 +8,22 @@
 
 int main(void)
 {
-	int a = 97;
-	char c = A;
+	int lower = 97;
+	char upper = 65;
 
-	while (a <= 127)
+	while (lower <= 122)
 	{
-		putchar(a);
-		a = a + 1;
+		putchar(lower);
+		lower++;
 	}
 
-	while (c <= Z)
+	while (upper <= 90)
 	{
-		putchar(c);
-		c++;
+		putchar(upper);
+		upper++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
