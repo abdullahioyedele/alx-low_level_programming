@@ -8,9 +8,10 @@
 
 int main(void)
 {
-	char alpha = z;
 
-	while (alpha >= a)
+	int alpha = 122;
+
+	while (alpha >= 97)
 	{
 		putchar(alpha);
 		alpha--;
