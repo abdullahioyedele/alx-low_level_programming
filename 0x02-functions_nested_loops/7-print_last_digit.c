@@ -5,8 +5,6 @@
  *
  * @n: number whose last digit is to be printed
  *
- * @last_digit: last digit of the number
- *
  * Return: last digit of a number.
  */
 
